@@ -1,0 +1,60 @@
+*{
+    background-color: lightskyblue;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header{
+    font-size: 0.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightskyblue;
+    border-radius: 0.3em;
+    padding: 1.5em 2em 1.5em 2em;
+}
+
+header > *{
+    color: white;
+}
+
+header #titulo{
+    display: flex;
+    justify-content: left;
+    float: left;
+    font-size: 1.2em;
+    background-color: blue;
+    border-radius: 0.3em;
+    padding: 1.5em 2em 1.5em 2em;
+}
+
+#BMW{
+    padding-left: 5%;
+}
+
+#titulo > #BMW, #titulo > #BMW > h1{
+    background-color: red;
+    font-size: 1.5em;
+    padding-top: 0;
+}
+
+header #titulo #miniTexto{
+    background-color: red;
+    padding: 1.5em 1em 1.5em 2em;
+    align-content: center;
+}
+
+#miniTexto h3{
+    margin: 0;
+    background-color: red;
+    display: flex;
+}
+
+
+header #enlacesFotos{
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+
