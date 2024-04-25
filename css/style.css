@@ -58,3 +58,94 @@ header #enlacesFotos{
     float: right;
 }
 
+main *{
+    background-color: white;
+}
+
+main {
+    justify-items: center;
+    padding: 1em;
+    margin: 0.5em;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: white;
+    border-radius: 0.7em;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: auto auto;
+    grid-template-areas: 
+        "botones botones"
+        "modelo modelo"
+        "foto desc"
+    ;
+}
+
+#botones{
+    grid-area: botones;
+}
+
+.botoncito{
+    border-radius: 0.3em;
+    background-color: rgb(73, 73, 73);
+    border-color: white;
+}
+
+#modelo{
+    grid-area: modelo;
+}
+
+#foto_coche{
+    grid-area: foto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#foto_coche > img{
+    width: 70%;
+    border-radius: 0.5em;
+    
+}
+
+#desc{
+    grid-area: desc;
+    align-content: center;
+}
+
+.footer {
+    color: #fff;
+    padding: 30px 0;
+    justify-content: center;
+}
+  
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+.footer-info,
+.footer-links,
+.footer-social {
+    flex: 1;
+    margin-right: 30px;
+}
+  
+.footer-links ul,
+.footer-social ul {
+    padding: 0;
+    list-style: none;
+}
+  
+.footer-links ul li,
+.footer-social ul li {
+    margin-bottom: 10px;
+}
+  
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+}
+  
